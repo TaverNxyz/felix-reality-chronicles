@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom theme colors
+        "vice-purple": "hsl(var(--vice-purple))",
+        "vice-red": "hsl(var(--vice-red))",
+        "discord-dark": "hsl(var(--discord-dark))",
+        "terminal-green": "hsl(var(--terminal-green))",
+        "glitch-blue": "hsl(var(--glitch-blue))",
       },
       borderRadius: {
         lg: "var(--radius)",

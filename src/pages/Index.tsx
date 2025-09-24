@@ -331,8 +331,8 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
               PERMABUSE PALACE
             </span>
           </h1>
-          <p className="text-center text-muted-foreground terminal-text">
-            Digital documentation of Discord tyranny and the abuse of power
+          <p className="text-center text-foreground font-bold text-2xl md:text-3xl terminal-text tracking-wider">
+            BEFORE YOU READ THIS, NO, THIS IS NOT A DOX.
           </p>
         </div>
       </div>

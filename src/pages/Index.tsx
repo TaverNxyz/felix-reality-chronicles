@@ -94,16 +94,11 @@ yeah god rest your soul. and the soul of your phones chip. and the not-burning-s
 [09/21/25 14:49:30] ⬛ 🤣 tcp.dns: ngl
 [09/21/25 14:49:32] ⬛ 🤣 tcp.dns: hahahhaah
 
------ below is when mr discord mod starts unprovokingly sucking my dick after my response to a claim he made the day before of "Esco is always scared of being doxed" not knowing that I very well
-know literally any and all of his info down to his sensitive numbers. he then waited an entire day to respond to me and below is that response followed by me simply having time for it on that day.
+<div style="background: linear-gradient(135deg, #FFD700, #FFA500); color: #000; padding: 12px; margin: 8px 0; border-radius: 8px; border-left: 4px solid #FF6B00; font-weight: bold; font-size: 14px;">
+📋 CONTEXT: Below is when mr discord mod starts unprovokingly sucking my dick after my response to a claim he made the day before of "Esco is always scared of being doxed" not knowing that I very well know literally any and all of his info down to his sensitive numbers. He then waited an entire day to respond to me and below is that response followed by me simply having time for it on that day.
 
-
-------- mind you, he would have banned me upon first visibly seeing me in any other server, but i have a good feeling he was told to not ban me by someone in-particular.
-so at this point, it was free game for me to say anything aside from posting his dox, which I never really planned to. I will also post the following messages of felix repeatedly asking me 
-to dox people for his own benefit, which i also never did. and i also might add, the whole "doxing" was brought into the equation by none other than felix and felix alone. He and all the admins know
-who i am and what can be done through the right searches and queries to build enough to get the info i need to submit it to my PI and get the REAL sensitive stuff, and it was never a problem, infact, trolling 
-the weirdos in shameless was encouraged by a close friend in shameless who also happened to be higher up than most everyone in there. So yeah, lets really talk about the root cause of all of the controversy between 
-that term and my name being associated with it. 
+⚠️ NOTE: Mind you, he would have banned me upon first visibly seeing me in any other server, but i have a good feeling he was told to not ban me by someone in-particular. So at this point, it was free game for me to say anything aside from posting his dox, which I never really planned to. I will also post the following messages of felix repeatedly asking me to dox people for his own benefit, which i also never did. And i also might add, the whole "doxing" was brought into the equation by none other than felix and felix alone. He and all the admins know who i am and what can be done through the right searches and queries to build enough to get the info i need to submit it to my PI and get the REAL sensitive stuff, and it was never a problem, infact, trolling the weirdos in shameless was encouraged by a close friend in shameless who also happened to be higher up than most everyone in there. So yeah, lets really talk about the root cause of all of the controversy between that term and my name being associated with it.
+</div>
 
 [09/21/25 14:49:32] 🟥 FELIXTFELIX: Go off king faggot
 [09/21/25 14:50:03] 🟥 FELIXTFELIX: Hey man due
@@ -200,8 +195,9 @@ i need a reminder every now and again why i should just leave that on
 [09/21/25 15:02:55] 🟥 felixtfelix: Okay esco, sorry for making a joke my bad crash out king
 [09/21/25 15:03:22] 🤣 tcp.dns: should apologize for being a faggot and doing what we both know you did, but since im still a decent person im not finna roll right back into that
 
-at this point, he went full bitchmade and took it to my dms as if he thought that would make me stop grilling him publicly. Was it out of fear? could esco really stoop so low as to
-exposing what he knows about mr modewator? i continued replying in public VC while also replying to him in DMs telling him to keep it all public.
+<div style="background: linear-gradient(135deg, #00FF00, #32CD32); color: #000; padding: 12px; margin: 8px 0; border-radius: 8px; border-left: 4px solid #008000; font-weight: bold; font-size: 14px;">
+🎯 TACTICAL SHIFT: At this point, he went full bitchmade and took it to my dms as if he thought that would make me stop grilling him publicly. Was it out of fear? Could esco really stoop so low as to exposing what he knows about mr modewator? I continued replying in public VC while also replying to him in DMs telling him to keep it all public.
+</div>
 
 [09/21/25 15:03:34] 🤣 tcp.dns: bro wasnt joking when he was spamming me, or yesterday, or any other time
 [09/21/25 15:03:42] 🤣 tcp.dns: again, ion crash out about niggas like you bro, sincerely
@@ -237,10 +233,11 @@ ctd:
 [09/21/25 15:11:00] 🟥 felixtfelix: Your a liar 
 
 
-im a liar? interesting...  https://imgur.com/a/9dzrb6q yeah all of that purple is only a PORTION of vms this weird ass pussy sent me that i could snapshot while being maximum zoomed out on notepad
+<div style="background: linear-gradient(135deg, #FF1493, #FF69B4); color: #FFF; padding: 12px; margin: 8px 0; border-radius: 8px; border-left: 4px solid #C71585; font-weight: bold; font-size: 14px;">
+🔥 EVIDENCE DROP: Im a liar? interesting... https://imgur.com/a/9dzrb6q yeah all of that purple is only a PORTION of vms this weird ass pussy sent me that i could snapshot while being maximum zoomed out on notepad
 
-but im a liar? or is he just a bum who still lives at home and gets all his affirmation on discord? the world may never know. oh wait, they do though lololol.
-
+But im a liar? Or is he just a bum who still lives at home and gets all his affirmation on discord? The world may never know. Oh wait, they do though lololol.
+</div>
 
 [09/21/25 15:11:02] 🤣 tcp.dns: nerp
 [09/21/25 15:11:08] 🟥 felixtfelix: It's funny watching you wig out
@@ -291,42 +288,33 @@ but im a liar? or is he just a bum who still lives at home and gets all his affi
       id: '3',
       name: 'ohno_youfellandcantgetup.jsx', 
       section: 'reality',
-      content: `as for reality, all of this transpired out of a very (non) justified reason. i posted my dick in NSFW and a girl in the VC who went to look at it upon SOMEONE ELSE bringing up the fact
-that i had even posted it saw it, made a blatant "O face" and began to admire the picture while reality was in the VC. This was the turning point.
+      content: `<div style="background: linear-gradient(135deg, #FFD700, #FFFF00); color: #000; padding: 16px; margin: 12px 0; border-radius: 12px; border: 3px solid #FF8C00; font-weight: bold; font-size: 15px; box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);">
+🚨 THE REALITY BREAKDOWN - FULL CONTEXT 🚨
 
-the night goes on and morning comes, tanmak and reality were in the VC and i popped in. TanMak left shortly after, which somewhat indicates maybe i was already being spoken about. WEIRD.
+As for reality, all of this transpired out of a very (non) justified reason. I posted my dick in NSFW and a girl in the VC who went to look at it upon SOMEONE ELSE bringing up the fact that i had even posted it saw it, made a blatant "O face" and began to admire the picture while reality was in the VC. This was the turning point.
 
-so tanmak leaves, and reality, without wasting a single second, informs me that i am not allowed to post my dick in V I C E as he doesnt want "any of his admins posting their shit in the server they moderate"...
+The night goes on and morning comes, tanmak and reality were in the VC and i popped in. TanMak left shortly after, which somewhat indicates maybe i was already being spoken about. WEIRD.
 
-but felix, who was an admin under me in V I C E, was actually the first dick entry that ever got posted. so at this point, i accepted who he was, and knew i would depart by the end of the day.
+So tanmak leaves, and reality, without wasting a single second, informs me that i am not allowed to post my dick in V I C E as he doesnt want "any of his admins posting their shit in the server they moderate"...
 
-i was admin in shameless and all my REAL friends applauded my outgoing of coming out of my shell and posting my shit for people to see. this was after months of being grilled and being called a faggot
-because i never wanted to goon with some of the crashout bitches that he had in his rotation, all while manipulating a 19 year old girl who was head over heels for him while i watched him break her heart and manipulate 
-her back into his control multiple times.
+BUT FELIX, who was an admin under me in V I C E, was actually the FIRST dick entry that ever got posted. So at this point, i accepted who he was, and knew i would depart by the end of the day.
 
-she cannot be blamed, he is almost 34 and she is 19, say what you want, but that is perfectly justifiable for her to allow herself to be taken advantage of especially when (and this is the only compliment i will ever
-give reality) he is a smooth talker and manipulated anyone in regards to their opinion of me prior to treez shutting him down publicly along with plushi standing up for me as well when he framed me as a threat to the
-entire shameless admin team.treez, as seen above, shut that shit down and told him he needs to essentially stop trying to riot in the aspect of destroying my name lolololol.
+I was admin in shameless and all my REAL friends applauded my outgoing of coming out of my shell and posting my shit for people to see. This was after months of being grilled and being called a faggot because i never wanted to goon with some of the crashout bitches that he had in his rotation, all while manipulating a 19 year old girl who was head over heels for him while i watched him break her heart and manipulate her back into his control multiple times.
 
-he also actively showed me videos on a phone that he recorded the phone he was using while talking to chancellor and 2 other girls while they were showing him certain videos of themselves that he was told to keep
-private.
+She cannot be blamed, he is almost 34 and she is 19, say what you want, but that is perfectly justifiable for her to allow herself to be taken advantage of especially when (and this is the only compliment i will ever give reality) he is a smooth talker and manipulated anyone in regards to their opinion of me prior to treez shutting him down publicly along with plushi standing up for me as well when he framed me as a threat to the entire shameless admin team. Treez, as seen above, shut that shit down and told him he needs to essentially stop trying to riot in the aspect of destroying my name lolololol.
 
-while i was building 404, i heard bits and pieces of him plotting on me and trying to get me fucked over. dun duh duh dun, then leverage comes into play and i started getting annoyed. his threat was to (allegedly, 
-because i will even say i never confirmed this, but still acted on it because i had confirmed that he still had my whole dick in his mouth days later) send pics of me smoking to my parents. i laughed at it, he may talk to
-them more than i have this year in that case. point being, it served no effect. 
+He also actively showed me videos on a phone that he recorded the phone he was using while talking to chancellor and 2 other girls while they were showing him certain videos of themselves that he was told to keep private.
 
-so then, when lex blocked him, he had a full realization that he now doesnt have her or anyone to manipulate, while at some point realizing, similar to felix, i know everything about him too. but he made it easy by giving
-me senior admin perms to the linode servers that we ran for the bots and external applications we built for V I C E. by the way, he also claims the months in a row of he and i sitting in VCs actively co-devving, was actually
-and i quote, 80% him and 20% me. haha, right.
+While i was building 404, i heard bits and pieces of him plotting on me and trying to get me fucked over. Dun duh duh dun, then leverage comes into play and i started getting annoyed. His threat was to (allegedly, because i will even say i never confirmed this, but still acted on it because i had confirmed that he still had my whole dick in his mouth days later) send pics of me smoking to my parents. I laughed at it, he may talk to them more than i have this year in that case. Point being, it served no effect.
 
-so with that, i give you the pictures of messages he sent lex while AT WORK, so sweet, thinking about me at work lololol, of him directly stating he was gonna try and make my life hell til i left shameless. woopty woop,
-this is what chronic problems and insecurity develops into.
+So then, when lex blocked him, he had a full realization that he now doesnt have her or anyone to manipulate, while at some point realizing, similar to felix, i know everything about him too. But he made it easy by giving me senior admin perms to the linode servers that we ran for the bots and external applications we built for V I C E. By the way, he also claims the months in a row of he and i sitting in VCs actively co-devving, was actually and i quote, 80% him and 20% me. Haha, right.
 
-pictures:
+So with that, i give you the pictures of messages he sent lex while AT WORK, so sweet, thinking about me at work lololol, of him directly stating he was gonna try and make my life hell til i left shameless. Woopty woop, this is what chronic problems and insecurity develops into.
 
+PICTURES:
 https://imgur.com/a/ywxRpos - talking about making my life hell
-
-https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from shameless head admin.`
+https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from shameless head admin.
+</div>`
     }
   ];
 

@@ -3,22 +3,43 @@ import { Card } from '@/components/ui/card';
 import { FileReader } from '@/components/FileReader';
 import { FileList } from '@/components/FileList';
 import { PasswordProtection } from '@/components/PasswordProtection';
+import { SectionPasswordProtection } from '@/components/SectionPasswordProtection';
 import { StoryFile } from '@/types/story';
 
 const Index = () => {
   const [selectedFile, setSelectedFile] = useState<StoryFile | null>(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [sectionAccess, setSectionAccess] = useState({
+    felix: false,
+    reality: false
+  });
 
   useEffect(() => {
-    // Check if user is already authenticated
+    // Check if user is already authenticated for main site
     const authenticated = localStorage.getItem('permabuse_authenticated');
     if (authenticated === 'true') {
       setIsAuthenticated(true);
     }
+
+    // Check section-specific authentication
+    const felixAuth = localStorage.getItem('permabuse_felix_authenticated');
+    const realityAuth = localStorage.getItem('permabuse_reality_authenticated');
+    
+    setSectionAccess({
+      felix: felixAuth === 'true',
+      reality: realityAuth === 'true'
+    });
   }, []);
 
   const handleAuthenticated = () => {
     setIsAuthenticated(true);
+  };
+
+  const handleSectionAuthenticated = (section: string) => {
+    setSectionAccess(prev => ({
+      ...prev,
+      [section]: true
+    }));
   };
 
   // Show password protection if not authenticated
@@ -355,12 +376,19 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
             </Card>
 
             <div className="space-y-4">
-              <FileList
-                files={felixFiles}
-                onFileSelect={(file) => setSelectedFile(file)}
-                onFileDelete={() => {}} // Disabled for hardcoded files
-                sectionTitle="Felix"
-              />
+              {sectionAccess.felix ? (
+                <FileList
+                  files={felixFiles}
+                  onFileSelect={(file) => setSelectedFile(file)}
+                  onFileDelete={() => {}} // Disabled for hardcoded files
+                  sectionTitle="Felix"
+                />
+              ) : (
+                <SectionPasswordProtection
+                  section="felix"
+                  onAuthenticated={handleSectionAuthenticated}
+                />
+              )}
             </div>
           </div>
 
@@ -376,12 +404,19 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
             </Card>
 
             <div className="space-y-4">
-              <FileList
-                files={realityFiles}
-                onFileSelect={(file) => setSelectedFile(file)}
-                onFileDelete={() => {}} // Disabled for hardcoded files
-                sectionTitle="Reality"
-              />
+              {sectionAccess.reality ? (
+                <FileList
+                  files={realityFiles}
+                  onFileSelect={(file) => setSelectedFile(file)}
+                  onFileDelete={() => {}} // Disabled for hardcoded files
+                  sectionTitle="Reality"
+                />
+              ) : (
+                <SectionPasswordProtection
+                  section="reality"
+                  onAuthenticated={handleSectionAuthenticated}
+                />
+              )}
             </div>
           </div>
         </div>

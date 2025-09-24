@@ -29,7 +29,7 @@ export const SectionPasswordProtection = ({ section, onAuthenticated }: SectionP
     // Simulate a brief loading delay for better UX
     setTimeout(() => {
       if (password === SECTION_PASSWORDS[section]) {
-        localStorage.setItem(`permabuse_${section}_authenticated`, 'true');
+        // No localStorage - authentication only for current session
         onAuthenticated(section);
       } else {
         setError('Incorrect password. Access denied.');

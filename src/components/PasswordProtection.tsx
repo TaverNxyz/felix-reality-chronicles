@@ -25,7 +25,7 @@ export const PasswordProtection = ({ onAuthenticated }: PasswordProtectionProps)
     // Simulate a brief loading delay for better UX
     setTimeout(() => {
       if (password === SITE_PASSWORD) {
-        localStorage.setItem('permabuse_authenticated', 'true');
+        // No localStorage - authentication only for current session
         onAuthenticated();
       } else {
         setError('Incorrect password. Access denied.');

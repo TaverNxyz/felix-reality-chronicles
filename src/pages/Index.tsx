@@ -15,20 +15,7 @@ const Index = () => {
   });
 
   useEffect(() => {
-    // Check if user is already authenticated for main site
-    const authenticated = localStorage.getItem('permabuse_authenticated');
-    if (authenticated === 'true') {
-      setIsAuthenticated(true);
-    }
-
-    // Check section-specific authentication
-    const felixAuth = localStorage.getItem('permabuse_felix_authenticated');
-    const realityAuth = localStorage.getItem('permabuse_reality_authenticated');
-    
-    setSectionAccess({
-      felix: felixAuth === 'true',
-      reality: realityAuth === 'true'
-    });
+    // No authentication persistence - users must enter passwords every time
   }, []);
 
   const handleAuthenticated = () => {

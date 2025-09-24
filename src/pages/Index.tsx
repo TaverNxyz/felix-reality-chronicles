@@ -322,7 +322,16 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
   const realityFiles = predefinedFiles.filter(file => file.section === 'reality');
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" 
+         style={{
+           backgroundImage: "url('/favicon.png')",
+           backgroundAttachment: 'fixed',
+           backgroundPosition: 'center',
+           backgroundRepeat: 'no-repeat', 
+           backgroundSize: 'cover',
+           backgroundBlendMode: 'overlay'
+         }}>
+      <div className="absolute inset-0 bg-background/75 pointer-events-none"></div>
       {/* Header */}
       <div className="border-b border-primary/20 bg-discord-dark/50">
         <div className="max-w-7xl mx-auto px-4 py-8">

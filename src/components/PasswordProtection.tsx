@@ -36,7 +36,16 @@ export const PasswordProtection = ({ onAuthenticated }: PasswordProtectionProps)
   };
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+    <div className="min-h-screen bg-background flex items-center justify-center p-4" 
+         style={{
+           backgroundImage: "url('/favicon.png')",
+           backgroundAttachment: 'fixed',
+           backgroundPosition: 'center',
+           backgroundRepeat: 'no-repeat',
+           backgroundSize: 'cover',
+           backgroundBlendMode: 'overlay'
+         }}>
+      <div className="absolute inset-0 bg-background/75 pointer-events-none"></div>
       <div className="w-full max-w-md">
         <Card className="p-8 bg-discord-dark/50 border-primary/20 shadow-glow">
           <div className="text-center mb-8">

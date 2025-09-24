@@ -53,7 +53,16 @@ export const SectionPasswordProtection = ({ section, onAuthenticated }: SectionP
   };
 
   return (
-    <div className="flex items-center justify-center p-4 min-h-[400px]">
+    <div className="flex items-center justify-center p-4 min-h-[400px]" 
+         style={{
+           backgroundImage: "url('/favicon.png')",
+           backgroundAttachment: 'fixed',
+           backgroundPosition: 'center',
+           backgroundRepeat: 'no-repeat',
+           backgroundSize: 'cover',
+           backgroundBlendMode: 'overlay'
+         }}>
+      <div className="absolute inset-0 bg-background/75 pointer-events-none"></div>
       <div className="w-full max-w-sm">
         <Card className={`p-6 bg-discord-dark/50 ${sectionColors[section].border} shadow-glow`}>
           <div className="text-center mb-6">

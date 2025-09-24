@@ -331,7 +331,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
               PERMABUSE PALACE
             </span>
           </h1>
-          <p className="text-center text-foreground font-bold text-2xl md:text-3xl terminal-text tracking-wider">
+          <p className="text-center font-bold text-2xl md:text-3xl terminal-text tracking-wider" style={{ color: '#FFFF00' }}>
             BEFORE YOU READ THIS, NO, THIS IS NOT A DOX.
           </p>
         </div>

@@ -333,74 +333,112 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
          }}>
       <div className="absolute inset-0 bg-background/75 pointer-events-none"></div>
       {/* Header */}
-      <div className="border-b border-primary/20 bg-discord-dark/50">
-        <div className="max-w-7xl mx-auto px-4 py-8">
-          <h1 className="text-4xl font-bold text-center mb-2">
-            <span className="vice-gradient bg-clip-text text-transparent">
-              PERMABUSE PALACE
-            </span>
-          </h1>
-          <p className="text-center font-bold text-2xl md:text-3xl terminal-text tracking-wider" style={{ color: '#FFFF00' }}>
-            BEFORE YOU READ THIS, NO, THIS IS NOT A DOX.
-          </p>
+      <div className="relative border-b border-primary/20 bg-discord-dark/80 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-4 py-12">
+          <div className="text-center space-y-4">
+            <h1 className="text-6xl md:text-7xl font-black tracking-tighter">
+              <span className="vice-gradient bg-clip-text text-transparent drop-shadow-2xl">
+                PERMABUSE PALACE
+              </span>
+            </h1>
+            <div className="max-w-4xl mx-auto">
+              <p className="text-yellow-400 font-bold text-xl md:text-2xl terminal-text tracking-wider animate-pulse">
+                BEFORE YOU READ THIS, NO, THIS IS NOT A DOX.
+              </p>
+            </div>
+            <div className="w-32 h-1 bg-gradient-to-r from-vice-red to-vice-purple mx-auto rounded-full shadow-glow"></div>
+          </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid md:grid-cols-2 gap-8">
+      {/* Main Content */}
+      <div className="relative max-w-7xl mx-auto px-4 py-16">
+        <div className="grid lg:grid-cols-2 gap-12">
           {/* Felix Section */}
-          <div>
-            <Card className="p-6 mb-6 bg-discord-dark/50 border-vice-red/30">
-              <h2 className="text-2xl font-bold mb-2 text-vice-red">
-                FELIX
-              </h2>
-              <p className="text-muted-foreground text-sm">
-                The chronicles of a power-tripping admin's descent into digital tyranny
-              </p>
-            </Card>
+          <div className="group relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-vice-red/20 to-transparent rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+            <div className="relative">
+              <Card className="p-8 mb-8 bg-discord-dark/90 border-vice-red/40 hover:border-vice-red/60 shadow-2xl backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] rounded-2xl">
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-16 h-16 bg-vice-red/20 rounded-xl flex items-center justify-center">
+                    <span className="text-2xl">👑</span>
+                  </div>
+                  <div>
+                    <h2 className="text-4xl font-black text-vice-red tracking-tight">
+                      FELIX
+                    </h2>
+                    <div className="w-16 h-1 bg-vice-red rounded-full mt-2"></div>
+                  </div>
+                </div>
+                <p className="text-muted-foreground leading-relaxed text-lg">
+                  The chronicles of a power-tripping admin's descent into digital tyranny. 
+                  Witness the corruption of authority in the digital age.
+                </p>
+              </Card>
 
-            <div className="space-y-4">
-              {sectionAccess.felix ? (
-                <FileList
-                  files={felixFiles}
-                  onFileSelect={(file) => setSelectedFile(file)}
-                  onFileDelete={() => {}} // Disabled for hardcoded files
-                  sectionTitle="Felix"
-                />
-              ) : (
-                <SectionPasswordProtection
-                  section="felix"
-                  onAuthenticated={handleSectionAuthenticated}
-                />
-              )}
+              <div className="space-y-6">
+                {sectionAccess.felix ? (
+                  <div className="bg-discord-dark/50 rounded-2xl p-6 border border-vice-red/20 backdrop-blur-sm">
+                    <FileList
+                      files={felixFiles}
+                      onFileSelect={(file) => setSelectedFile(file)}
+                      onFileDelete={() => {}} // Disabled for hardcoded files
+                      sectionTitle="Felix"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-discord-dark/80 rounded-2xl border border-vice-red/30 backdrop-blur-sm">
+                    <SectionPasswordProtection
+                      section="felix"
+                      onAuthenticated={handleSectionAuthenticated}
+                    />
+                  </div>
+                )}
+              </div>
             </div>
           </div>
 
           {/* Reality Section */}
-          <div>
-            <Card className="p-6 mb-6 bg-discord-dark/50 border-vice-purple/30">
-              <h2 className="text-2xl font-bold mb-2 text-vice-purple">
-                REALITY
-              </h2>
-              <p className="text-muted-foreground text-sm">
-                The crumbling foundations of what once was real
-              </p>
-            </Card>
+          <div className="group relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-vice-purple/20 to-transparent rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+            <div className="relative">
+              <Card className="p-8 mb-8 bg-discord-dark/90 border-vice-purple/40 hover:border-vice-purple/60 shadow-2xl backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] rounded-2xl">
+                <div className="flex items-center space-x-4 mb-6">
+                  <div className="w-16 h-16 bg-vice-purple/20 rounded-xl flex items-center justify-center">
+                    <span className="text-2xl">🌀</span>
+                  </div>
+                  <div>
+                    <h2 className="text-4xl font-black text-vice-purple tracking-tight">
+                      REALITY
+                    </h2>
+                    <div className="w-16 h-1 bg-vice-purple rounded-full mt-2"></div>
+                  </div>
+                </div>
+                <p className="text-muted-foreground leading-relaxed text-lg">
+                  The crumbling foundations of what once was real. 
+                  Explore the distortion of truth in our connected world.
+                </p>
+              </Card>
 
-            <div className="space-y-4">
-              {sectionAccess.reality ? (
-                <FileList
-                  files={realityFiles}
-                  onFileSelect={(file) => setSelectedFile(file)}
-                  onFileDelete={() => {}} // Disabled for hardcoded files
-                  sectionTitle="Reality"
-                />
-              ) : (
-                <SectionPasswordProtection
-                  section="reality"
-                  onAuthenticated={handleSectionAuthenticated}
-                />
-              )}
+              <div className="space-y-6">
+                {sectionAccess.reality ? (
+                  <div className="bg-discord-dark/50 rounded-2xl p-6 border border-vice-purple/20 backdrop-blur-sm">
+                    <FileList
+                      files={realityFiles}
+                      onFileSelect={(file) => setSelectedFile(file)}
+                      onFileDelete={() => {}} // Disabled for hardcoded files
+                      sectionTitle="Reality"
+                    />
+                  </div>
+                ) : (
+                  <div className="bg-discord-dark/80 rounded-2xl border border-vice-purple/30 backdrop-blur-sm">
+                    <SectionPasswordProtection
+                      section="reality"
+                      onAuthenticated={handleSectionAuthenticated}
+                    />
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>

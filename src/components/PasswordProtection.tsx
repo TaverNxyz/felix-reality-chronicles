@@ -15,7 +15,7 @@ export const PasswordProtection = ({ onAuthenticated }: PasswordProtectionProps)
   const [isLoading, setIsLoading] = useState(false);
 
   // You can change this password to whatever you want
-  const SITE_PASSWORD = 'permabuse2025';
+  const SITE_PASSWORD = 'asswipeadmins25';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

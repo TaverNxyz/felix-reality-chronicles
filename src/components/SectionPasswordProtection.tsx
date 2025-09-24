@@ -17,8 +17,8 @@ export const SectionPasswordProtection = ({ section, onAuthenticated }: SectionP
 
   // Different passwords for each section
   const SECTION_PASSWORDS = {
-    felix: 'felixisafaggot',
-    reality: 'realitycheck99'
+    felix: 'faggotnigger69',
+    reality: 'stupidfatass69'
   };
 
   const handleSubmit = (e: React.FormEvent) => {

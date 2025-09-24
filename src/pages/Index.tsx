@@ -1,11 +1,30 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { FileReader } from '@/components/FileReader';
 import { FileList } from '@/components/FileList';
+import { PasswordProtection } from '@/components/PasswordProtection';
 import { StoryFile } from '@/types/story';
 
 const Index = () => {
   const [selectedFile, setSelectedFile] = useState<StoryFile | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  useEffect(() => {
+    // Check if user is already authenticated
+    const authenticated = localStorage.getItem('permabuse_authenticated');
+    if (authenticated === 'true') {
+      setIsAuthenticated(true);
+    }
+  }, []);
+
+  const handleAuthenticated = () => {
+    setIsAuthenticated(true);
+  };
+
+  // Show password protection if not authenticated
+  if (!isAuthenticated) {
+    return <PasswordProtection onAuthenticated={handleAuthenticated} />;
+  }
 
   // Hardcoded files as requested
   const predefinedFiles: StoryFile[] = [

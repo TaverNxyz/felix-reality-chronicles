@@ -331,7 +331,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
            backgroundSize: 'cover',
            backgroundBlendMode: 'overlay'
          }}>
-      <div className="absolute inset-0 bg-background/75 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-background/40 pointer-events-none"></div>
       {/* Header */}
       <div className="relative border-b border-primary/20 bg-discord-dark/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 py-12">
@@ -378,7 +378,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
 
               <div className="space-y-6">
                 {sectionAccess.felix ? (
-                  <div className="bg-discord-dark/50 rounded-2xl p-6 border border-vice-red/20 backdrop-blur-sm">
+                  <div className="bg-discord-dark/80 rounded-2xl p-6 border border-vice-red/20 backdrop-blur-sm">
                     <FileList
                       files={felixFiles}
                       onFileSelect={(file) => setSelectedFile(file)}
@@ -387,7 +387,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
                     />
                   </div>
                 ) : (
-                  <div className="bg-discord-dark/80 rounded-2xl border border-vice-red/30 backdrop-blur-sm">
+                  <div className="bg-discord-dark/90 rounded-2xl border border-vice-red/30 backdrop-blur-sm">
                     <SectionPasswordProtection
                       section="felix"
                       onAuthenticated={handleSectionAuthenticated}
@@ -422,7 +422,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
 
               <div className="space-y-6">
                 {sectionAccess.reality ? (
-                  <div className="bg-discord-dark/50 rounded-2xl p-6 border border-vice-purple/20 backdrop-blur-sm">
+                  <div className="bg-discord-dark/90 rounded-2xl p-6 border border-vice-purple/20 backdrop-blur-sm">
                     <FileList
                       files={realityFiles}
                       onFileSelect={(file) => setSelectedFile(file)}
@@ -431,7 +431,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
                     />
                   </div>
                 ) : (
-                  <div className="bg-discord-dark/80 rounded-2xl border border-vice-purple/30 backdrop-blur-sm">
+                  <div className="bg-discord-dark/90 rounded-2xl border border-vice-purple/30 backdrop-blur-sm">
                     <SectionPasswordProtection
                       section="reality"
                       onAuthenticated={handleSectionAuthenticated}

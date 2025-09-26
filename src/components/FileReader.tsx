@@ -30,9 +30,20 @@ export const FileReader = ({ fileName, content, onClose }: FileReaderProps) => {
         
         <Card className="flex-1 p-6 bg-discord-dark/50 border-primary/20 shadow-glow overflow-hidden">
           <div className="h-full overflow-y-auto">
-            <pre className="text-sm leading-relaxed whitespace-pre-wrap font-mono">
-              {content}
-            </pre>
+            <div className="text-sm leading-relaxed font-mono">
+              {content.split('\n').map((line, index) => {
+                const hasTargetUser = line.includes('tcp.dns') || line.includes('felixtfelix');
+                return (
+                  <div 
+                    key={index}
+                    className={!hasTargetUser && line.trim() ? 'text-yellow-400 bg-yellow-400/10 px-2 py-1 rounded' : ''}
+                    style={{ whiteSpace: 'pre-wrap' }}
+                  >
+                    {line}
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </Card>
       </div>

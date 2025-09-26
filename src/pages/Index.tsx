@@ -328,12 +328,12 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
            backgroundAttachment: 'fixed',
            backgroundPosition: 'center',
            backgroundRepeat: 'no-repeat', 
-           backgroundSize: 'cover',
+           backgroundSize: '100px 100px',
            backgroundBlendMode: 'overlay'
          }}>
-      <div className="absolute inset-0 bg-background/40 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-background/20 pointer-events-none"></div>
       {/* Header */}
-      <div className="relative border-b border-primary/20 bg-discord-dark/80 backdrop-blur-sm">
+      <div className="relative border-b border-primary/20 bg-discord-dark/95 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 py-12">
           <div className="text-center space-y-4">
             <h1 className="text-6xl md:text-7xl font-black tracking-tighter">
@@ -358,7 +358,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
           <div className="group relative">
             <div className="absolute inset-0 bg-gradient-to-br from-vice-red/20 to-transparent rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
             <div className="relative">
-              <Card className="p-8 mb-8 bg-discord-dark/90 border-vice-red/40 hover:border-vice-red/60 shadow-2xl backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] rounded-2xl">
+              <Card className="p-8 mb-8 bg-discord-dark/95 border-vice-red/40 hover:border-vice-red/60 shadow-2xl backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] rounded-2xl">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-16 h-16 bg-vice-red/20 rounded-xl flex items-center justify-center">
                     <span className="text-2xl">👑</span>
@@ -378,7 +378,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
 
               <div className="space-y-6">
                 {sectionAccess.felix ? (
-                  <div className="bg-discord-dark/80 rounded-2xl p-6 border border-vice-red/20 backdrop-blur-sm">
+                  <div className="bg-discord-dark/95 rounded-2xl p-6 border border-vice-red/20 backdrop-blur-sm">
                     <FileList
                       files={felixFiles}
                       onFileSelect={(file) => setSelectedFile(file)}
@@ -387,7 +387,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
                     />
                   </div>
                 ) : (
-                  <div className="bg-discord-dark/90 rounded-2xl border border-vice-red/30 backdrop-blur-sm">
+                  <div className="bg-discord-dark/95 rounded-2xl border border-vice-red/30 backdrop-blur-sm">
                     <SectionPasswordProtection
                       section="felix"
                       onAuthenticated={handleSectionAuthenticated}
@@ -402,7 +402,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
           <div className="group relative">
             <div className="absolute inset-0 bg-gradient-to-br from-vice-purple/20 to-transparent rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
             <div className="relative">
-              <Card className="p-8 mb-8 bg-discord-dark/90 border-vice-purple/40 hover:border-vice-purple/60 shadow-2xl backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] rounded-2xl">
+              <Card className="p-8 mb-8 bg-discord-dark/95 border-vice-purple/40 hover:border-vice-purple/60 shadow-2xl backdrop-blur-sm transition-all duration-300 hover:transform hover:scale-[1.02] rounded-2xl">
                 <div className="flex items-center space-x-4 mb-6">
                   <div className="w-16 h-16 bg-vice-purple/20 rounded-xl flex items-center justify-center">
                     <span className="text-2xl">🌀</span>
@@ -422,7 +422,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
 
               <div className="space-y-6">
                 {sectionAccess.reality ? (
-                  <div className="bg-discord-dark/90 rounded-2xl p-6 border border-vice-purple/20 backdrop-blur-sm">
+                  <div className="bg-discord-dark/95 rounded-2xl p-6 border border-vice-purple/20 backdrop-blur-sm">
                     <FileList
                       files={realityFiles}
                       onFileSelect={(file) => setSelectedFile(file)}
@@ -431,7 +431,7 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
                     />
                   </div>
                 ) : (
-                  <div className="bg-discord-dark/90 rounded-2xl border border-vice-purple/30 backdrop-blur-sm">
+                  <div className="bg-discord-dark/95 rounded-2xl border border-vice-purple/30 backdrop-blur-sm">
                     <SectionPasswordProtection
                       section="reality"
                       onAuthenticated={handleSectionAuthenticated}

@@ -33,10 +33,11 @@ export const FileReader = ({ fileName, content, onClose }: FileReaderProps) => {
             <div className="text-sm leading-relaxed font-mono">
               {content.split('\n').map((line, index) => {
                 const hasTargetUser = line.includes('tcp.dns') || line.includes('felixtfelix');
+                const isRedacted = line.includes('(redacted)');
                 return (
                   <div 
                     key={index}
-                    className={!hasTargetUser && line.trim() ? 'text-yellow-400 bg-yellow-400/10 px-2 py-1 rounded' : ''}
+                    className={!hasTargetUser && !isRedacted && line.trim() ? 'text-yellow-400 bg-yellow-400/10 px-2 py-1 rounded' : ''}
                     style={{ whiteSpace: 'pre-wrap' }}
                   >
                     {line}

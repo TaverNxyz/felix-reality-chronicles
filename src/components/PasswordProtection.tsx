@@ -42,10 +42,10 @@ export const PasswordProtection = ({ onAuthenticated }: PasswordProtectionProps)
            backgroundAttachment: 'fixed',
            backgroundPosition: 'center',
            backgroundRepeat: 'no-repeat',
-           backgroundSize: '100px 100px',
+           backgroundSize: 'cover',
            backgroundBlendMode: 'overlay'
          }}>
-      <div className="absolute inset-0 bg-background/20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-background/10 pointer-events-none"></div>
       <div className="w-full max-w-md">
         <Card className="p-8 bg-discord-dark/95 border-primary/20 shadow-glow backdrop-blur-sm">
           <div className="text-center mb-8">

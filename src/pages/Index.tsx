@@ -328,10 +328,10 @@ https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from s
            backgroundAttachment: 'fixed',
            backgroundPosition: 'center',
            backgroundRepeat: 'no-repeat', 
-           backgroundSize: '100px 100px',
+           backgroundSize: 'cover',
            backgroundBlendMode: 'overlay'
          }}>
-      <div className="absolute inset-0 bg-background/20 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-background/10 pointer-events-none"></div>
       {/* Header */}
       <div className="relative border-b border-primary/20 bg-discord-dark/95 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 py-12">

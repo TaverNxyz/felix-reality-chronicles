@@ -315,8 +315,15 @@ PICTURES:
 https://imgur.com/a/zBSzJ5r - talking about making my life hell
 https://imgur.com/a/eo9t1ul - him getting absolutely pwnd by the response from shameless head admin.
 
+
 Exported Discord Msgs:
 https://jumpshare.com/share/7FN1am1D65Sr9FZZoF0Q
+
+Deleted Messages Like He Did With Everyone, Literally:
+https://imgur.com/a/S9GPUQe
+
+Positive Reinforcement:
+https://imgur.com/a/YkaPCld
 </div>`
     }
   ];

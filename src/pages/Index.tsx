@@ -312,8 +312,11 @@ So then, when lex blocked him, he had a full realization that he now doesnt have
 So with that, i give you the pictures of messages he sent lex while AT WORK, so sweet, thinking about me at work lololol, of him directly stating he was gonna try and make my life hell til i left shameless. Woopty woop, this is what chronic problems and insecurity develops into.
 
 PICTURES:
-https://imgur.com/a/ywxRpos - talking about making my life hell
-https://imgur.com/a/AUWLwYt - him getting absolutely pwnd by the response from shameless head admin.
+https://imgur.com/a/zBSzJ5r - talking about making my life hell
+https://imgur.com/a/eo9t1ul - him getting absolutely pwnd by the response from shameless head admin.
+
+Exported Discord Msgs:
+https://jumpshare.com/share/7FN1am1D65Sr9FZZoF0Q
 </div>`
     }
   ];
